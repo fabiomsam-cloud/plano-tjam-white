@@ -339,24 +339,25 @@ footer{background:var(--surface-2);border-top:1px solid var(--line)}
 .section-divider{height:1px;background:linear-gradient(90deg,transparent,var(--line-strong),transparent);max-width:var(--max);margin:0 auto}
 
 /* ── WHITE HERO OVERRIDE ── */
-.hero{background:#fff;padding:64px 0 56px}
+.hero{background:#fff;padding:56px 0 64px}
 .hero-bg{display:none}
-.hero-inner{max-width:860px;display:flex;flex-direction:column;align-items:center;text-align:center !important;margin:0 auto}
-.hero-inner *{text-align:center !important}
-.hero-left{width:100%;display:flex;flex-direction:column;align-items:center}
-.hero h1{font-size:clamp(2.4rem,5.5vw,4rem);font-weight:800;color:#0D1B3E;margin:.4em 0 .3em;line-height:1.05;text-align:center !important}
+.hero-inner{max-width:100%;display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
+@media(max-width:860px){.hero-inner{grid-template-columns:1fr;gap:36px}}
+.hero-left{display:flex;flex-direction:column;align-items:center;text-align:center}
+.hero h1{font-size:clamp(2rem,4.2vw,3.4rem);font-weight:800;color:#0D1B3E;margin:.4em 0 .3em;line-height:1.06;text-align:center}
 .hero h1 .hl{color:var(--gold);background:none}
 .hero h1 .hl::after{display:none}
 .hero h1 .hl-blue{color:var(--primary-bright)}
-.hero p.lead{color:#2a3d62;font-size:clamp(1rem,1.8vw,1.18rem);max-width:640px;margin-bottom:1.6em;text-align:center !important}
+.hero p.lead{color:#2a3d62;font-size:clamp(.95rem,1.6vw,1.12rem);max-width:480px;margin-bottom:1.6em;text-align:center}
 .hero-cta{justify-content:center}
 .hero-note{justify-content:center;color:var(--muted)}
 .hero-trust{border-top:1px solid var(--line);padding-top:1.4em;margin-top:2em;justify-content:center}
 .hero-trust .ti{color:#2a3d62}
 .hero-trust .ti b{color:#0D1B3E}
 
-/* right col — oculto no layout centralizado */
-.hero-right{display:none}
+/* right col — tablet + material cards */
+.hero-right{display:flex;flex-direction:column;gap:14px}
+.tablet-mock{background:#0D1B3E;border-radius:20px;padding:10px;box-shadow:0 28px 70px -20px rgba(26,58,143,.30),0 0 0 1px rgba(26,58,143,.12);display:flex;flex-direction:column}
 
 /* tablet mockup */
 .tablet-mock{background:#0D1B3E;border-radius:20px;padding:10px;box-shadow:0 28px 70px -20px rgba(26,58,143,.30),0 0 0 1px rgba(26,58,143,.12)}

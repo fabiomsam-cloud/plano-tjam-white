@@ -343,15 +343,15 @@ footer{background:var(--surface-2);border-top:1px solid var(--line)}
 .hero-bg{display:none}
 .hero-inner{max-width:100%;display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center}
 @media(max-width:860px){.hero-inner{grid-template-columns:1fr;gap:36px}}
-.hero-left{display:flex;flex-direction:column;align-items:center;text-align:center}
-.hero h1{font-size:clamp(2rem,4.2vw,3.4rem);font-weight:800;color:#0D1B3E;margin:.4em 0 .3em;line-height:1.06;text-align:center}
+.hero-left{display:flex;flex-direction:column;align-items:flex-start;text-align:left}
+.hero h1{font-size:clamp(2.2rem,4.6vw,3.8rem);font-weight:800;color:#0D1B3E;margin:.3em 0 .3em;line-height:1.06;text-align:left}
 .hero h1 .hl{color:var(--gold);background:none}
 .hero h1 .hl::after{display:none}
 .hero h1 .hl-blue{color:var(--primary-bright)}
-.hero p.lead{color:#2a3d62;font-size:clamp(.95rem,1.6vw,1.12rem);max-width:480px;margin-bottom:1.6em;text-align:center}
-.hero-cta{justify-content:center}
-.hero-note{justify-content:center;color:var(--muted)}
-.hero-trust{border-top:1px solid var(--line);padding-top:1.4em;margin-top:2em;justify-content:center}
+.hero p.lead{color:#2a3d62;font-size:clamp(.98rem,1.6vw,1.14rem);max-width:520px;margin-bottom:1.6em;text-align:left}
+.hero-cta{justify-content:flex-start}
+.hero-note{color:var(--muted)}
+.hero-trust{border-top:1px solid var(--line);padding-top:1.4em;margin-top:2em}
 .hero-trust .ti{color:#2a3d62}
 .hero-trust .ti b{color:#0D1B3E}
 
@@ -444,67 +444,7 @@ footer{background:var(--surface-2);border-top:1px solid var(--line)}
     </div>
     <!-- COLUNA DIREITA -->
     <div class="hero-right reveal d2">
-      <!-- TABLET MOCKUP -->
-      <div class="tablet-mock">
-        <div class="tablet-screen">
-          <div class="tablet-topbar">
-            <span class="tb-title">📅 Plano de Estudos · Semana 1</span>
-            <span class="tb-badge">TJAM</span>
-          </div>
-          <div class="week-grid">
-            <div class="wday">
-              <div class="wday-label">SEG</div>
-              <div class="wpill c1">Dir. Constitucional</div>
-              <div class="wpill c2">Português</div>
-              <div class="whours">2h</div>
-            </div>
-            <div class="wday">
-              <div class="wday-label">TER</div>
-              <div class="wpill c1">Dir. Administrativo</div>
-              <div class="wpill c3">Informática</div>
-              <div class="whours">2h</div>
-            </div>
-            <div class="wday">
-              <div class="wday-label">QUA</div>
-              <div class="wpill c1">Dir. Constitucional</div>
-              <div class="wpill c4">Dir. Penal</div>
-              <div class="whours">1h30</div>
-            </div>
-            <div class="wday">
-              <div class="wday-label">QUI</div>
-              <div class="wpill c2">Português</div>
-              <div class="wpill c1">Dir. Proc. Civil</div>
-              <div class="whours">2h</div>
-            </div>
-            <div class="wday">
-              <div class="wday-label">SEX</div>
-              <div class="wpill c1">Dir. Administrativo</div>
-              <div class="wpill c5">Rac. Lógico</div>
-              <div class="whours">1h30</div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- MATERIAL CARDS -->
-      <div class="mat-cards">
-        <div class="mat-card">
-          <div class="mc-ic blue"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 3h18M3 9h18M3 15h12M3 21h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
-          <div><b>Pôster Mapa da Aprovação</b><span>Edital inteiro em uma página com semáforo de prioridade</span></div>
-        </div>
-        <div class="mat-card">
-          <div class="mc-ic gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="17" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18M8 2v4M16 2v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
-          <div><b>Cronograma Semana a Semana</b><span>Distribuído por matéria para quem tem 1 a 2h por dia</span></div>
-        </div>
-        <div class="mat-card">
-          <div class="mc-ic green"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-          <div><b>Checklist do Edital por Tópico</b><span>Estudei · Revisei · Fiz questões — por assunto</span></div>
-        </div>
-      </div>
-      <!-- STAT BADGE -->
-      <div class="hero-stat-badge">
-        <span class="sn">1.361</span>
-        <small>leads já inscritos para o próximo concurso do TJAM</small>
-      </div>
+      <img src="FOTOS/mockup-plano.png" alt="Plano de Estudos TJAM — Calendário de Estudos" style="width:100%;max-width:580px;display:block;margin:0 auto;filter:drop-shadow(0 24px 48px rgba(26,58,143,.18))">
     </div>
   </div>
 </section>

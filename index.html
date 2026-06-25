@@ -341,7 +341,7 @@ footer{background:var(--surface-2);border-top:1px solid var(--line)}
 /* ── WHITE HERO OVERRIDE ── */
 .hero{background:#fff;padding:56px 0 72px}
 .hero-bg{display:none}
-.hero-inner{max-width:100%;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.hero-inner{max-width:100%;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:stretch}
 @media(max-width:860px){.hero-inner{grid-template-columns:1fr;gap:36px}}
 .hero-left{max-width:580px}
 .hero h1{font-size:clamp(2.6rem,5.5vw,4.2rem);font-weight:800;color:#0D1B3E;margin:.4em 0 .3em;line-height:1.05}
@@ -355,15 +355,17 @@ footer{background:var(--surface-2);border-top:1px solid var(--line)}
 .hero-note{color:var(--muted)}
 
 /* right col — tablet + material cards */
-.hero-right{position:relative;display:flex;flex-direction:column;gap:14px}
+.hero-right{position:relative;display:flex;flex-direction:column;gap:14px;justify-content:center}
+.tablet-mock{flex:1;display:flex;flex-direction:column}
 
 /* tablet mockup */
 .tablet-mock{background:#0D1B3E;border-radius:20px;padding:10px;box-shadow:0 28px 70px -20px rgba(26,58,143,.30),0 0 0 1px rgba(26,58,143,.12)}
-.tablet-screen{background:#F3F6FB;border-radius:12px;overflow:hidden}
+.tablet-screen{background:#F3F6FB;border-radius:12px;overflow:hidden;flex:1;display:flex;flex-direction:column}
 .tablet-topbar{background:#fff;border-bottom:1px solid #E2EAF8;padding:10px 14px;display:flex;align-items:center;justify-content:space-between}
 .tablet-topbar .tb-title{font-family:'Bricolage Grotesque';font-size:.78rem;font-weight:700;color:#0D1B3E}
 .tablet-topbar .tb-badge{font-family:'JetBrains Mono';font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;background:rgba(26,58,143,.1);color:var(--primary-bright);border-radius:999px;padding:.25em .7em;font-weight:700}
-.week-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;padding:12px}
+.week-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;padding:12px;flex:1}
+.wday{display:flex;flex-direction:column}
 .wday{background:#fff;border-radius:9px;padding:8px 6px;min-height:80px;border:1px solid #E2EAF8}
 .wday-label{font-family:'JetBrains Mono';font-size:.55rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#8A9EC0;margin-bottom:6px;text-align:center}
 .wpill{border-radius:5px;font-size:.6rem;font-weight:700;padding:3px 5px;margin-bottom:3px;line-height:1.2;text-align:center}

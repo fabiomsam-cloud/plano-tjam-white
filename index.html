@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Plano Aprovação TJAM · Sou Concurseiro e Vou Passar</title>
+<meta name="description" content="O Plano Aprovação TJAM te entrega o cronograma pronto, o mapa de todas as matérias com o peso real de cada uma na prova — e ainda te coloca dentro de uma aula ao vivo com o Professor Fábio Silva para montar sua semana de estudos. Mesmo começando do zero.">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '639941435037052');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=639941435037052&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<script>
+/* === CONFIGURAÇÃO DA VERSÃO === */
+var CONFIG = {
+  PRECO: "R$ 19,90",
+  PRECO_RISCADO: "R$ 197",
+  CHECKOUT_URL: "https://pay.hub.la/4UNFZI30Eo9K2rHGLBUt",  /* ← inserir link Hubla v1 aqui */
+  UTM: "?utm_source=meta&utm_medium=paid&utm_campaign=tjam-low&utm_content=v1-1990-white"
+};
+</script>
+
+<style>
+:root{
+  --midnight:#FFFFFF;
+  --night:#F5F7FC;
+  --surface:#FFFFFF;
+  --surface-2:#EEF2FA;
+  --line:rgba(26,58,143,.11);
+  --line-strong:rgba(26,58,143,.20);
+  --primary:#1A3A8F;
+  --primary-bright:#2952C8;
+  --gold:#C8930A;
+  --gold-soft:#B07D00;
+  --alto:#C0392B;
+  --medio:#D4620A;
+  --baixo:#2E6FA0;
+  --green:#1E9455;
+  --ink:#0D1B3E;
+  --muted:#4A5E82;
+  --muted-2:#7A90B8;
+  --max:1180px;
+  --r:18px;
+  --r-lg:26px;
+  --shadow:0 20px 50px -16px rgba(26,58,143,.14);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:'Hanken Grotesk',system-ui,sans-serif;
+  background:var(--midnight);
+  color:var(--ink);
+  line-height:1.6;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4{font-family:'Bricolage Grotesque',sans-serif;line-height:1.04;letter-spacing:-.02em;font-weight:700}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 22px}
+.mono{font-family:'JetBrains Mono',monospace;letter-spacing:.04em}
+
+/* atmosphere */
+body::before{
+  content:"";position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(900px 500px at 75% -10%, rgba(26,58,143,.07), transparent 60%),
+    radial-gradient(700px 500px at 5% 15%, rgba(200,147,10,.06), transparent 55%),
+    radial-gradient(1000px 800px at 50% 110%,rgba(26,58,143,.05), transparent 60%),
+    #FFFFFF;
+}
+body::after{display:none}
+
+/* buttons */
+.btn{
+  display:inline-flex;align-items:center;gap:.6em;justify-content:center;
+  font-family:'Hanken Grotesk';font-weight:700;font-size:1.02rem;
+  padding:1.05em 1.7em;border-radius:999px;cursor:pointer;border:none;
+  transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s,filter .25s;
+  text-align:center;line-height:1.1;
+}
+.btn-primary{
+  background:linear-gradient(135deg,var(--gold) 0%,var(--gold-soft) 100%);
+  color:#3a2400;box-shadow:0 18px 40px -16px rgba(212,160,23,.7);
+}
+.btn-primary:hover{transform:translateY(-3px) scale(1.015);filter:brightness(1.05);box-shadow:0 26px 54px -16px rgba(212,160,23,.85)}
+.btn-blue{background:linear-gradient(135deg,var(--primary) 0%,var(--primary-bright) 100%);color:#fff;box-shadow:0 18px 40px -16px rgba(41,82,200,.6)}
+.btn-blue:hover{transform:translateY(-3px) scale(1.015)}
+.btn-ghost{background:rgba(26,58,143,.05);color:var(--ink);border:1px solid var(--line-strong)}
+.btn-ghost:hover{background:rgba(26,58,143,.1);transform:translateY(-2px)}
+.btn-lg{font-size:1.14rem;padding:1.2em 2.1em}
+
+/* eyebrow */
+.eyebrow{
+  display:inline-flex;align-items:center;gap:.55em;
+  font-family:'JetBrains Mono',monospace;font-size:.72rem;font-weight:600;
+  letter-spacing:.22em;text-transform:uppercase;color:var(--gold-soft);
+  padding:.5em .9em;border:1px solid rgba(212,160,23,.32);border-radius:999px;
+  background:rgba(212,160,23,.06);
+}
+.eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;box-shadow:0 0 10px currentColor}
+
+/* nav */
+header.nav{position:sticky;top:0;z-index:50;transition:background .3s,border-color .3s,backdrop-filter .3s;border-bottom:1px solid transparent}
+header.nav.scrolled{background:rgba(255,255,255,.95);backdrop-filter:blur(14px);border-bottom:1px solid var(--line);box-shadow:0 2px 20px rgba(26,58,143,.08)}
+.nav-inner{display:flex;align-items:center;justify-content:space-between;height:72px}
+.brand{display:flex;align-items:center;gap:.7em;font-weight:800;font-family:'Bricolage Grotesque';font-size:1.05rem;letter-spacing:-.01em}
+.brand .mark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(135deg,var(--primary),var(--primary-bright));box-shadow:0 6px 18px -6px var(--primary);flex:0 0 auto}
+.brand small{display:block;font-family:'JetBrains Mono';font-size:.6rem;letter-spacing:.18em;color:var(--muted);font-weight:500;text-transform:uppercase;margin-top:-2px}
+.nav-cta{display:flex;align-items:center;gap:1.4rem}
+.nav-links{display:flex;gap:1.5rem;font-size:.92rem;color:var(--muted);font-weight:600}
+.nav-links a:hover{color:var(--ink)}
+.nav .btn{padding:.7em 1.25em;font-size:.92rem}
+@media(max-width:860px){.nav-links{display:none}}
+
+/* announce bar */
+.announce{background:linear-gradient(90deg,var(--primary),var(--primary-bright));text-align:center;font-size:.82rem;font-weight:600;padding:.55em 1em;color:#dfe8ff;letter-spacing:.01em}
+.announce b{color:#fff}
+
+/* hero */
+.hero{position:relative;padding:72px 0 90px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;z-index:0;background:var(--surface-2)}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 32%;opacity:.18}
+.hero-bg::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(180deg,rgba(255,255,255,.55) 0%,rgba(255,255,255,.75) 45%,#FFFFFF 96%),
+  linear-gradient(90deg,rgba(255,255,255,.9) 0%,rgba(255,255,255,.2) 55%,rgba(255,255,255,.5) 100%);}
+.hero-inner{position:relative;z-index:2;max-width:920px}
+.hero h1{font-size:clamp(2.5rem,6.4vw,4.6rem);font-weight:800;margin:.5em 0 .35em}
+.hero h1 .hl{position:relative;white-space:nowrap;color:var(--gold-soft)}
+.hero h1 .hl::after{content:"";position:absolute;left:0;right:0;bottom:.06em;height:.14em;background:linear-gradient(90deg,var(--gold),transparent);border-radius:2px;opacity:.7}
+.hero p.lead{font-size:clamp(1.08rem,2.2vw,1.32rem);color:#2a3d62;max-width:680px;margin-bottom:2em;font-weight:500}
+.hero-cta{display:flex;flex-wrap:wrap;gap:1rem;align-items:center}
+.hero-note{font-size:.86rem;color:var(--muted);display:flex;align-items:center;gap:.5em;margin-top:.4em}
+.hero-trust{display:flex;flex-wrap:wrap;gap:1.6rem;margin-top:2.6em;padding-top:1.8em;border-top:1px solid var(--line)}
+.hero-trust .ti{display:flex;align-items:center;gap:.6em;font-size:.92rem;color:var(--muted);font-weight:600}
+.hero-trust .ti b{color:var(--ink);font-family:'Bricolage Grotesque';font-size:1.05rem}
+
+/* section base */
+section{position:relative}
+.sec{padding:92px 0}
+.sec-head{max-width:720px;margin-bottom:56px}
+.sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.sec-head h2{font-size:clamp(2rem,4.6vw,3.2rem);font-weight:800;margin:.45em 0 .4em}
+.sec-head p{font-size:1.12rem;color:var(--muted);font-weight:500}
+.kicker-gold{color:var(--gold-soft)}
+
+/* opp band */
+.opp{position:relative;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:linear-gradient(180deg,rgba(26,58,143,.06),rgba(212,160,23,.04))}
+.opp-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;padding:40px 0;text-align:center}
+@media(max-width:760px){.opp-grid{grid-template-columns:repeat(2,1fr);gap:24px 12px}}
+.opp-item .n{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(2rem,5vw,2.9rem);line-height:1;background:linear-gradient(135deg,var(--gold),var(--gold-soft));-webkit-background-clip:text;background-clip:text;color:transparent}
+.opp-item .n.blue{background:linear-gradient(135deg,var(--primary-bright),#8aabff);-webkit-background-clip:text;background-clip:text}
+.opp-item small{display:block;margin-top:.5em;color:var(--muted);font-size:.86rem;font-weight:600;line-height:1.35}
+
+/* pain cards */
+.pain-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.pain{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px;position:relative;overflow:hidden;transition:border-color .3s,transform .3s}
+.pain:hover{border-color:var(--line-strong);transform:translateY(-4px)}
+.pain .emoji{font-size:1.5rem;margin-bottom:.5em}
+.pain h3{font-size:1.16rem;margin-bottom:.4em;font-weight:700}
+.pain p{font-size:.96rem;color:var(--muted)}
+.pain .q{position:absolute;right:14px;top:8px;font-family:'Bricolage Grotesque';font-size:3.4rem;font-weight:800;color:rgba(140,175,230,.06)}
+
+/* solution */
+.solution{background:linear-gradient(180deg,transparent,rgba(26,58,143,.05),transparent)}
+.sol-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:54px;align-items:center}
+@media(max-width:900px){.sol-grid{grid-template-columns:1fr;gap:40px}}
+.sol-list{margin-top:1.6em;display:flex;flex-direction:column;gap:1.1em}
+.sol-item{display:flex;gap:1em;align-items:flex-start}
+.sol-item .ic{flex:0 0 auto;width:42px;height:42px;border-radius:12px;display:grid;place-items:center;background:rgba(26,58,143,.14);border:1px solid rgba(41,82,200,.28);color:var(--primary-bright)}
+.sol-item h4{font-size:1.08rem;margin-bottom:.1em}
+.sol-item p{font-size:.96rem;color:var(--muted)}
+
+/* poster mock */
+.poster-mock{background:var(--surface);border:1px solid var(--line-strong);border-radius:var(--r-lg);padding:22px;box-shadow:var(--shadow)}
+.poster-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px;font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);flex-wrap:wrap;gap:8px}
+.poster-badge{background:rgba(212,160,23,.14);color:var(--gold-soft);border:1px solid rgba(212,160,23,.3);border-radius:999px;padding:.3em .7em}
+.p-row{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+.p-name{flex:0 0 150px;font-size:.78rem;font-weight:600;color:var(--ink)}
+@media(max-width:480px){.p-name{flex:0 0 110px;font-size:.72rem}}
+.p-bar{flex:1;height:8px;background:rgba(0,0,0,.09);border-radius:999px;overflow:hidden}
+.p-row.alto .p-bar i{background:var(--alto);display:block;height:100%;border-radius:999px}
+.p-row.medio .p-bar i{background:var(--medio);display:block;height:100%;border-radius:999px}
+.p-row.baixo .p-bar i{background:var(--baixo);display:block;height:100%;border-radius:999px}
+.p-tag{font-family:'JetBrains Mono',monospace;font-size:.6rem;font-weight:700;letter-spacing:.12em;flex:0 0 46px;text-align:right}
+.p-row.alto .p-tag{color:var(--alto)}
+.p-row.medio .p-tag{color:var(--medio)}
+.p-row.baixo .p-tag{color:var(--baixo)}
+.poster-legend{display:flex;gap:16px;margin-top:14px;font-size:.72rem;font-weight:600;flex-wrap:wrap}
+.leg.alto{color:var(--alto)}.leg.medio{color:var(--medio)}.leg.baixo{color:var(--baixo)}
+
+/* feat grid */
+.feat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+@media(max-width:900px){.feat-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:560px){.feat-grid{grid-template-columns:1fr}}
+.feat{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:26px;transition:transform .3s,border-color .3s,background .3s;position:relative;overflow:hidden}
+.feat:hover{transform:translateY(-5px);border-color:var(--line-strong);background:var(--surface-2)}
+.feat .ic{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;margin-bottom:16px;background:rgba(26,58,143,.14);border:1px solid rgba(41,82,200,.25);color:var(--primary-bright)}
+.feat.gold .ic{background:rgba(212,160,23,.12);border-color:rgba(212,160,23,.25);color:var(--gold-soft)}
+.feat.gold{border-color:rgba(212,160,23,.22);background:linear-gradient(180deg,rgba(212,160,23,.05),var(--surface))}
+.feat h3{font-size:1.14rem;margin-bottom:.45em}
+.feat p{font-size:.95rem;color:var(--muted)}
+
+/* includes */
+.incl{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+@media(max-width:760px){.incl{grid-template-columns:1fr}}
+.incl-item{display:flex;gap:.9em;align-items:flex-start;padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:var(--surface)}
+.incl-item .ck{flex:0 0 auto;width:26px;height:26px;border-radius:8px;display:grid;place-items:center;background:rgba(39,174,96,.14);color:var(--green)}
+.incl-item b{display:block;margin-bottom:.1em}
+.incl-item span{font-size:.92rem;color:var(--muted)}
+
+/* bonus / authority */
+.bonus-section{position:relative;background:linear-gradient(180deg,rgba(212,160,23,.08),transparent 35%,rgba(26,58,143,.05));border-top:1px solid rgba(212,160,23,.2);border-bottom:1px solid rgba(212,160,23,.2)}
+.auth-banner{position:relative;border-radius:var(--r-lg);overflow:hidden;border:1px solid var(--line-strong);box-shadow:var(--shadow);margin-bottom:42px;min-height:240px;background:var(--surface-2)}
+.auth-banner img{width:100%;display:block;aspect-ratio:16/7;object-fit:cover;object-position:center 38%}
+@media(max-width:680px){.auth-banner img{aspect-ratio:5/4}}
+.auth-banner .ov{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;padding:clamp(20px,4vw,38px);background:linear-gradient(90deg,rgba(6,9,15,.88) 0%,rgba(6,9,15,.3) 55%,rgba(6,9,15,.5) 100%)}
+.auth-banner .ov b{font-family:'Bricolage Grotesque';font-size:clamp(1.6rem,4.2vw,2.6rem);font-weight:800;line-height:1.05}
+.auth-banner .ov small{display:block;color:var(--gold-soft);font-family:'JetBrains Mono';font-size:.72rem;letter-spacing:.1em;text-transform:uppercase;margin-top:.5em}
+.auth-banner .ov .eyebrow{align-self:flex-start;margin-bottom:1em}
+.auth-body{max-width:920px}
+.auth-quote{font-family:'Bricolage Grotesque';font-size:clamp(1.35rem,2.7vw,1.85rem);font-weight:600;line-height:1.3;margin:0 0 .9em}
+.auth-quote .hl{color:var(--gold-soft)}
+.auth-stats{display:flex;gap:26px;flex-wrap:wrap;margin-top:1.4em;padding-top:1.4em;border-top:1px solid var(--line)}
+.auth-stats .n{font-family:'Bricolage Grotesque';font-weight:800;font-size:1.8rem;color:var(--gold-soft);line-height:1}
+.auth-stats small{color:var(--muted);font-size:.82rem;font-weight:600;display:block;margin-top:.2em}
+.bonus-card{margin-top:56px;background:linear-gradient(135deg,rgba(212,160,23,.14),rgba(26,58,143,.08));border:1px solid rgba(212,160,23,.32);border-radius:var(--r-lg);padding:clamp(24px,4vw,40px);position:relative;overflow:hidden}
+.bonus-card::after{content:"";position:absolute;top:-30%;right:-10%;width:50%;height:90%;background:radial-gradient(closest-side,rgba(212,160,23,.16),transparent);pointer-events:none}
+.ribbon{display:inline-flex;align-items:center;gap:.5em;font-family:'JetBrains Mono';font-size:.7rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#3a2400;background:linear-gradient(135deg,var(--gold),var(--gold-soft));padding:.55em 1.1em;border-radius:999px;margin-bottom:1.1em;box-shadow:0 10px 26px -10px rgba(212,160,23,.7)}
+.bonus-grid{display:grid;grid-template-columns:1.25fr .9fr;gap:38px;align-items:center;position:relative;z-index:2}
+@media(max-width:820px){.bonus-grid{grid-template-columns:1fr;gap:26px}}
+.bonus-grid h3{font-size:clamp(1.5rem,3.2vw,2.1rem);font-weight:800;margin-bottom:.4em}
+.bonus-list{margin-top:1.1em;display:flex;flex-direction:column;gap:.75em}
+.bonus-list div{display:flex;gap:.65em;align-items:flex-start;font-size:1.01rem;color:#e9effb}
+.bonus-list svg{flex:0 0 auto;margin-top:4px;color:var(--gold-soft)}
+.bonus-aside{background:#FFFFFF;border:1px solid var(--line-strong);border-radius:18px;padding:26px 22px;text-align:center;box-shadow:0 8px 30px rgba(26,58,143,.1)}
+.live{display:inline-flex;align-items:center;gap:.5em;color:#ff7a73;font-weight:700;font-size:.74rem;font-family:'JetBrains Mono';letter-spacing:.12em;text-transform:uppercase;margin-bottom:.8em}
+.live .pulse{width:9px;height:9px;border-radius:50%;background:#ff5f57;animation:pulse 1.6s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(255,95,87,.6)}70%{box-shadow:0 0 0 11px rgba(255,95,87,0)}100%{box-shadow:0 0 0 0 rgba(255,95,87,0)}}
+.bonus-aside .ic-live{width:56px;height:56px;margin:0 auto 14px;border-radius:16px;display:grid;place-items:center;background:rgba(212,160,23,.14);border:1px solid rgba(212,160,23,.3);color:var(--gold-soft)}
+.bonus-aside b{font-family:'Bricolage Grotesque';font-size:1.15rem;display:block;margin-bottom:.3em}
+.bonus-aside p{font-size:.86rem;color:var(--muted)}
+.bonus-aside .val{margin-top:14px;padding-top:14px;border-top:1px solid var(--line);font-size:.82rem;color:var(--muted)}
+.bonus-aside .val b{color:var(--gold-soft);font-size:1.05rem;display:inline}
+
+/* gallery */
+.gallery{display:grid;grid-template-columns:1.5fr 1fr 1fr;gap:14px;margin-top:50px}
+@media(max-width:760px){.gallery{grid-template-columns:1fr 1fr}.gallery .g-main{grid-column:1/-1}}
+.gphoto{position:relative;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:var(--surface)}
+.gphoto img{width:100%;height:100%;object-fit:cover;display:block}
+.gphoto .cap{position:absolute;left:0;right:0;bottom:0;padding:16px 14px 12px;background:linear-gradient(transparent,rgba(6,9,15,.92));font-size:.82rem;font-weight:600}
+.g-main img{aspect-ratio:16/12}
+.gphoto.g-sm img{aspect-ratio:3/4}
+.gphoto.ph{min-height:200px;display:flex;align-items:flex-end}
+
+/* offer */
+.offer-card{max-width:560px;margin:0 auto;background:linear-gradient(180deg,var(--surface-2),var(--surface));border:1px solid var(--line-strong);border-radius:28px;padding:40px;text-align:center;box-shadow:var(--shadow),0 0 0 1px rgba(212,160,23,.12);position:relative;overflow:hidden}
+.offer-card::before{content:"";position:absolute;top:-40%;left:50%;transform:translateX(-50%);width:120%;height:80%;background:radial-gradient(closest-side,rgba(212,160,23,.18),transparent);pointer-events:none}
+.offer-badge{display:inline-block;font-family:'JetBrains Mono';font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--gold-soft);border:1px solid rgba(212,160,23,.35);border-radius:999px;padding:.5em 1em;margin-bottom:1.2em}
+.price-old{color:var(--muted);text-decoration:line-through;font-size:1.05rem}
+.price{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(2.8rem,8vw,4rem);line-height:1;margin:.15em 0}
+.price-sub{color:var(--muted);font-size:.98rem;margin-bottom:1.4em}
+.offer-card .btn{width:100%;margin-top:.4em}
+.guarantee{display:flex;align-items:center;gap:14px;justify-content:center;margin-top:24px;color:var(--muted);font-size:.9rem;max-width:560px;margin-left:auto;margin-right:auto;text-align:left}
+.guarantee .seal{flex:0 0 auto;width:58px;height:58px;border-radius:50%;display:grid;place-items:center;border:2px solid rgba(39,174,96,.4);color:var(--green)}
+.pay-note{font-size:.8rem;color:var(--muted-2);margin-top:1em}
+
+/* faq */
+.faq{max-width:780px;margin:0 auto}
+.faq details{border:1px solid var(--line);border-radius:14px;margin-bottom:12px;background:var(--surface);overflow:hidden}
+.faq details[open]{border-color:var(--line-strong)}
+.faq summary{cursor:pointer;list-style:none;padding:20px 24px;font-weight:700;font-family:'Bricolage Grotesque';font-size:1.06rem;display:flex;justify-content:space-between;align-items:center;gap:1em}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary .pl{flex:0 0 auto;width:26px;height:26px;border-radius:50%;border:1px solid var(--line-strong);display:grid;place-items:center;transition:transform .3s;color:var(--primary-bright)}
+.faq details[open] summary .pl{transform:rotate(45deg)}
+.faq .ans{padding:0 24px 22px;color:var(--muted);font-size:.98rem}
+
+/* final cta */
+.final{position:relative;text-align:center;padding:110px 0;overflow:hidden}
+.final-bg{position:absolute;inset:0;z-index:0;background:#0D1B3E}
+.final-bg img{width:100%;height:100%;object-fit:cover;opacity:.18}
+.final-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0D1B3E,rgba(13,27,62,.6),#0D1B3E)}
+.final-inner{position:relative;z-index:2;max-width:760px;margin:0 auto}
+.final h2{font-size:clamp(2.2rem,6vw,3.6rem);font-weight:800;margin-bottom:.4em}
+
+/* footer */
+footer{border-top:1px solid var(--line);padding:48px 0 60px;color:var(--muted)}
+.foot-top{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
+.foot-legal{font-size:.8rem;color:var(--muted-2);margin-top:24px;max-width:760px;line-height:1.6}
+
+/* final section — fundo escuro forçado, texto claro */
+.final{color:#E8F0FF}
+.final h2{color:#E8F0FF}
+.final .eyebrow{color:var(--gold-soft);border-color:rgba(212,160,23,.4);background:rgba(212,160,23,.12)}
+.final .kicker-gold{color:#F0C040}
+
+/* opp section — fundo claro */
+.opp{background:linear-gradient(180deg,rgba(26,58,143,.04),rgba(200,147,10,.03))}
+
+/* pain card decoration */
+.pain .q{color:rgba(26,58,143,.05)}
+
+/* bonus section */
+.bonus-section{background:linear-gradient(180deg,rgba(200,147,10,.06),transparent 35%,rgba(26,58,143,.03));border-top:1px solid rgba(200,147,10,.18);border-bottom:1px solid rgba(200,147,10,.18)}
+
+/* bonus list text */
+.bonus-list div{color:#1a2a4a}
+
+/* footer */
+footer{background:var(--surface-2);border-top:1px solid var(--line)}
+
+/* section divider */
+.section-divider{background:linear-gradient(90deg,transparent,var(--line-strong),transparent)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.8,.2,1),transform .7s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.reveal.d1{transition-delay:.08s}.reveal.d2{transition-delay:.16s}.reveal.d3{transition-delay:.24s}.reveal.d4{transition-delay:.32s}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}}
+
+.section-divider{height:1px;background:linear-gradient(90deg,transparent,var(--line-strong),transparent);max-width:var(--max);margin:0 auto}
+
+/* ── WHITE HERO OVERRIDE ── */
+.hero{background:#fff;padding:56px 0 72px}
+.hero-bg{display:none}
+.hero-inner{max-width:100%;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+@media(max-width:860px){.hero-inner{grid-template-columns:1fr;gap:36px}}
+.hero-left{max-width:580px}
+.hero h1{font-size:clamp(2.6rem,5.5vw,4.2rem);font-weight:800;color:#0D1B3E;margin:.4em 0 .3em;line-height:1.05}
+.hero h1 .hl{color:var(--gold);background:none}
+.hero h1 .hl::after{display:none}
+.hero h1 .hl-blue{color:var(--primary-bright)}
+.hero p.lead{color:#2a3d62;font-size:clamp(1rem,1.8vw,1.2rem);max-width:520px;margin-bottom:1.6em}
+.hero-trust{border-top:1px solid var(--line);padding-top:1.4em;margin-top:2em}
+.hero-trust .ti{color:#2a3d62}
+.hero-trust .ti b{color:#0D1B3E}
+.hero-note{color:var(--muted)}
+
+/* right col — tablet + material cards */
+.hero-right{position:relative;display:flex;flex-direction:column;gap:14px}
+
+/* tablet mockup */
+.tablet-mock{background:#0D1B3E;border-radius:20px;padding:10px;box-shadow:0 28px 70px -20px rgba(26,58,143,.30),0 0 0 1px rgba(26,58,143,.12)}
+.tablet-screen{background:#F3F6FB;border-radius:12px;overflow:hidden}
+.tablet-topbar{background:#fff;border-bottom:1px solid #E2EAF8;padding:10px 14px;display:flex;align-items:center;justify-content:space-between}
+.tablet-topbar .tb-title{font-family:'Bricolage Grotesque';font-size:.78rem;font-weight:700;color:#0D1B3E}
+.tablet-topbar .tb-badge{font-family:'JetBrains Mono';font-size:.58rem;letter-spacing:.1em;text-transform:uppercase;background:rgba(26,58,143,.1);color:var(--primary-bright);border-radius:999px;padding:.25em .7em;font-weight:700}
+.week-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:6px;padding:12px}
+.wday{background:#fff;border-radius:9px;padding:8px 6px;min-height:80px;border:1px solid #E2EAF8}
+.wday-label{font-family:'JetBrains Mono';font-size:.55rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#8A9EC0;margin-bottom:6px;text-align:center}
+.wpill{border-radius:5px;font-size:.6rem;font-weight:700;padding:3px 5px;margin-bottom:3px;line-height:1.2;text-align:center}
+.wpill.c1{background:#EBF1FF;color:#1A3A8F}
+.wpill.c2{background:#FFF3E0;color:#9A4E00}
+.wpill.c3{background:#E8F5E9;color:#1E6B3E}
+.wpill.c4{background:#FCE4EC;color:#880E2A}
+.wpill.c5{background:#F3E5F5;color:#6A1B9A}
+.whours{font-family:'JetBrains Mono';font-size:.55rem;color:#8A9EC0;text-align:center;margin-top:4px}
+
+/* material cards stack */
+.mat-cards{display:flex;flex-direction:column;gap:8px}
+.mat-card{background:#fff;border:1px solid #E2EAF8;border-radius:12px;padding:12px 14px;display:flex;align-items:center;gap:12px;box-shadow:0 2px 12px rgba(26,58,143,.06)}
+.mat-card .mc-ic{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;flex:0 0 auto}
+.mat-card .mc-ic.blue{background:#EBF1FF;color:var(--primary-bright)}
+.mat-card .mc-ic.gold{background:#FFF8E1;color:var(--gold)}
+.mat-card .mc-ic.green{background:#E8F5E9;color:#1E9455}
+.mat-card b{display:block;font-size:.84rem;color:#0D1B3E;font-family:'Bricolage Grotesque';font-weight:700}
+.mat-card span{font-size:.76rem;color:#5A6E96}
+
+/* stat badge */
+.hero-stat-badge{display:flex;align-items:center;gap:12px;background:#EBF1FF;border:1px solid rgba(26,58,143,.15);border-radius:12px;padding:10px 14px}
+.hero-stat-badge .sn{font-family:'Bricolage Grotesque';font-weight:800;font-size:1.4rem;color:var(--primary-bright);white-space:nowrap}
+.hero-stat-badge small{font-size:.78rem;color:#2a3d62;font-weight:600;line-height:1.3}
+</style>
+</head>
+<body>
+
+<!-- ANNOUNCE BAR -->
+<div class="announce">🏛 <b>O TJAM abriu vagas</b> e a prova se aproxima — quem começa organizado hoje <b>larga na frente</b>.</div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <div class="brand">
+      <span class="mark">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4Z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg>
+      </span>
+      <div>Plano Aprovação TJAM<small>powered by Sou Concurseiro e Vou Passar</small></div>
+    </div>
+    <div class="nav-cta">
+      <nav class="nav-links">
+        <a href="#oplano">O Plano</a>
+        <a href="#entregaveis">O que você recebe</a>
+        <a href="#bonus" style="color:var(--gold-soft)">★ Bônus</a>
+        <a href="#faq">Dúvidas</a>
+      </nav>
+      <a href="#oferta" class="btn btn-blue">Garantir meu Plano →</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-inner">
+    <!-- COLUNA ESQUERDA -->
+    <div class="hero-left">
+      <span class="eyebrow reveal">Plano de estudos · TJAM</span>
+      <h1 class="reveal d1">Você trabalha o dia todo e quer <span class="hl-blue">passar no TJAM.</span><br><span class="hl">Esse plano foi feito para você.</span></h1>
+      <p class="lead reveal d2">O <b>Plano Aprovação TJAM</b> te entrega o cronograma pronto, o mapa de todas as matérias com o peso real de cada uma na prova — e ainda te coloca dentro de uma aula ao vivo com o Professor Fábio Silva. Mesmo começando do zero. Mesmo com pouco tempo.</p>
+      <div class="reveal d2" style="background:rgba(200,147,10,.08);border:1px solid rgba(200,147,10,.28);color:#7A5500;font-weight:600;font-size:.94rem;padding:.8em 1.1em;border-radius:12px;margin-bottom:1.4em;max-width:520px;line-height:1.5">🎁 Comprando hoje, você ganha a <b>Aula Prática ao Vivo</b> com o Professor Fábio Silva</div>
+      <div class="hero-cta reveal d3">
+        <a href="#oplano" class="btn btn-primary btn-lg">Ver como funciona →</a>
+      </div>
+      <div class="hero-note reveal d3">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none"><path d="M20 6 9 17l-5-5" stroke="#1E9455" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Sem precisar saber por onde começar. O plano decide por você.
+      </div>
+      <div class="hero-trust reveal d4">
+        <div class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="17" rx="3" stroke="var(--primary-bright)" stroke-width="1.7"/><path d="M3 9h18M8 2v4M16 2v4" stroke="var(--primary-bright)" stroke-width="1.7" stroke-linecap="round"/></svg> <span><b>Cronograma</b> semana a semana</span></div>
+        <div class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M4 19V5a2 2 0 0 1 2-2h9l5 5v11a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z" stroke="var(--primary-bright)" stroke-width="1.6"/></svg> <span><b>Edital</b> TJAM mapeado</span></div>
+        <div class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4Z" stroke="var(--gold)" stroke-width="1.6"/></svg> <span><b>Provas anteriores</b> analisadas</span></div>
+        <div class="ti"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="8" r="4" stroke="#1E9455" stroke-width="1.7"/><path d="M5 20c0-3.3 3-6 7-6s7 2.7 7 6" stroke="#1E9455" stroke-width="1.7"/></svg> <span><b>Funciona</b> para iniciantes</span></div>
+      </div>
+    </div>
+    <!-- COLUNA DIREITA -->
+    <div class="hero-right reveal d2">
+      <!-- TABLET MOCKUP -->
+      <div class="tablet-mock">
+        <div class="tablet-screen">
+          <div class="tablet-topbar">
+            <span class="tb-title">📅 Plano de Estudos · Semana 1</span>
+            <span class="tb-badge">TJAM</span>
+          </div>
+          <div class="week-grid">
+            <div class="wday">
+              <div class="wday-label">SEG</div>
+              <div class="wpill c1">Dir. Constitucional</div>
+              <div class="wpill c2">Português</div>
+              <div class="whours">2h</div>
+            </div>
+            <div class="wday">
+              <div class="wday-label">TER</div>
+              <div class="wpill c1">Dir. Administrativo</div>
+              <div class="wpill c3">Informática</div>
+              <div class="whours">2h</div>
+            </div>
+            <div class="wday">
+              <div class="wday-label">QUA</div>
+              <div class="wpill c1">Dir. Constitucional</div>
+              <div class="wpill c4">Dir. Penal</div>
+              <div class="whours">1h30</div>
+            </div>
+            <div class="wday">
+              <div class="wday-label">QUI</div>
+              <div class="wpill c2">Português</div>
+              <div class="wpill c1">Dir. Proc. Civil</div>
+              <div class="whours">2h</div>
+            </div>
+            <div class="wday">
+              <div class="wday-label">SEX</div>
+              <div class="wpill c1">Dir. Administrativo</div>
+              <div class="wpill c5">Rac. Lógico</div>
+              <div class="whours">1h30</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MATERIAL CARDS -->
+      <div class="mat-cards">
+        <div class="mat-card">
+          <div class="mc-ic blue"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M3 3h18M3 9h18M3 15h12M3 21h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <div><b>Pôster Mapa da Aprovação</b><span>Edital inteiro em uma página com semáforo de prioridade</span></div>
+        </div>
+        <div class="mat-card">
+          <div class="mc-ic gold"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="17" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18M8 2v4M16 2v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div>
+          <div><b>Cronograma Semana a Semana</b><span>Distribuído por matéria para quem tem 1 a 2h por dia</span></div>
+        </div>
+        <div class="mat-card">
+          <div class="mc-ic green"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <div><b>Checklist do Edital por Tópico</b><span>Estudei · Revisei · Fiz questões — por assunto</span></div>
+        </div>
+      </div>
+      <!-- STAT BADGE -->
+      <div class="hero-stat-badge">
+        <span class="sn">1.361</span>
+        <small>leads já inscritos para o próximo concurso do TJAM</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OPPORTUNITY -->
+<section class="opp">
+  <div class="wrap">
+    <div class="opp-grid">
+      <div class="opp-item reveal"><div class="n">1.361</div><small>leads já inscritos<br>para o TJAM</small></div>
+      <div class="opp-item reveal d1"><div class="n blue">+ R$ 8.000</div><small>salário inicial de<br>analista judiciário</small></div>
+      <div class="opp-item reveal d2"><div class="n blue">TJAM</div><small>histórico de provas<br><b style="color:var(--gold-soft)">analisado e mapeado</b></small></div>
+      <div class="opp-item reveal d3"><div class="n">2025/26</div><small>concurso previsto —<br>prepare-se agora</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- BONUS TEASER 2ª DOBRA -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap">
+    <div class="reveal" style="background:linear-gradient(135deg,rgba(212,160,23,.12),rgba(26,58,143,.08));border:1px solid rgba(212,160,23,.3);border-radius:var(--r-lg);padding:clamp(22px,4vw,34px);display:flex;gap:26px;align-items:center;flex-wrap:wrap;justify-content:space-between">
+      <div style="flex:1;min-width:260px">
+        <div style="font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--gold-soft);font-weight:700;margin-bottom:.55em">🎁 Você não leva só o plano</div>
+        <h3 style="font-size:clamp(1.3rem,3vw,1.9rem);font-weight:800;margin-bottom:.35em">De bônus: a <span style="color:var(--gold-soft)">Aula Prática ao Vivo</span><br>"Como usar seu Plano para montar a semana de estudos perfeita no TJAM"</h3>
+        <p style="color:var(--muted);font-size:1.02rem;margin:0">Ao entrar no Plano você é convidado para uma aula exclusiva com o <b style="color:var(--ink)">Professor Fábio Silva</b> — onde ele te mostra, na prática, como usar o cronograma para não perder tempo com o que não cai.</p>
+      </div>
+      <a href="#bonus" class="btn btn-ghost btn-lg" style="flex:0 0 auto">Ver o bônus →</a>
+    </div>
+  </div>
+</section>
+
+<!-- DOR -->
+<section class="sec" id="oplano">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="eyebrow">A real de quem estuda para o TJAM</span>
+      <h2>Estudar para o TJAM trava quando você <span class="kicker-gold">não sabe exatamente o que cai.</span></h2>
+      <p>O edital é enorme, a prova tem padrões específicos e a internet te joga matéria para todo lado. Resultado: você perde horas com o que não cai e chega na prova sem cobertura nos tópicos que decidem a vaga.</p>
+    </div>
+    <div class="pain-grid">
+      <div class="pain reveal d1"><span class="q">1</span><div class="emoji">😵</div><h3>"Eu nem sei por onde começar"</h3><p>São tantas matérias que você abre o edital, trava, e fecha. Sem plano, não há progresso — só ansiedade.</p></div>
+      <div class="pain reveal d2"><span class="q">2</span><div class="emoji">📚</div><h3>O edital não tem piedade</h3><p>Direito Constitucional, Administrativo, Processual Civil, Informática... Cada matéria sozinha já é um mundo. Juntas, parece impossível.</p></div>
+      <div class="pain reveal d3"><span class="q">3</span><div class="emoji">⏰</div><h3>Pouco tempo, muita coisa para cobrir</h3><p>Você trabalha, tem casa, família — e sobram uma ou duas horas. Cada minuto mal usado é uma oportunidade desperdiçada.</p></div>
+      <div class="pain reveal d4"><span class="q">4</span><div class="emoji">🎯</div><h3>Estudar sem saber se está no certo</h3><p>Na pesquisa com 1.361 candidatos ao TJAM, 4 em cada 10 disseram que o maior problema é não ter direcionamento.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SOLUÇÃO -->
+<section class="sec solution">
+  <div class="wrap sol-grid">
+    <div class="reveal">
+      <span class="eyebrow">Como o Plano resolve isso</span>
+      <h2 style="font-size:clamp(2rem,4.6vw,3.1rem);font-weight:800;margin:.4em 0 .5em">Um mapa do edital.<br>Um cronograma pronto.<br>Uma semana de estudos que funciona.</h2>
+      <p style="color:var(--muted);font-size:1.08rem">O Plano Aprovação TJAM transforma o edital inteiro num passo a passo claro. Você abre, vê o que estudar hoje e segue o cronograma — sem precisar decidir nada.</p>
+      <div class="sol-list">
+        <div class="sol-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M3 3h18M3 9h18M3 15h12M3 21h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span><div><h4>O Pôster Mapa da Aprovação TJAM</h4><p>O edital inteiro em uma página — com cada matéria dimensionada pelo peso real na prova e semáforo de prioridade.</p></div></div>
+        <div class="sol-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="17" rx="3" stroke="currentColor" stroke-width="1.8"/><path d="M3 9h18M8 2v4M16 2v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><div><h4>Cronograma semana a semana</h4><p>Distribuição de horas por matéria, calibrado para quem trabalha e tem 1 a 2 horas por dia. Não sobra nem falta nada.</p></div></div>
+        <div class="sol-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><div><h4>Checklist do Edital por Tópico</h4><p>Cada assunto do edital com prioridade por cor. Colunas para marcar: Estudei / Revisei / Fiz questões.</p></div></div>
+        <div class="sol-item"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="m10 8 6 4-6 4V8Z" fill="currentColor"/><rect x="3" y="4" width="18" height="16" rx="3" stroke="currentColor" stroke-width="1.7"/></svg></span><div><h4>3 Micro-aulas Estratégicas</h4><p>"O erro de estudar tudo igual no TJAM", "As matérias que decidem a vaga", "Como a banca cobra e o que ela prioriza".</p></div></div>
+      </div>
+    </div>
+
+    <!-- POSTER MOCKUP -->
+    <div class="reveal d2">
+      <div class="poster-mock">
+        <div class="poster-header">
+          <span>MAPA DA APROVAÇÃO · TJAM</span>
+          <span class="poster-badge">Analista / Técnico Judiciário</span>
+        </div>
+        <div class="poster-rows">
+          <div class="p-row alto">
+            <span class="p-name">Dir. Constitucional</span>
+            <div class="p-bar"><i style="width:88%"></i></div>
+            <span class="p-tag">ALTO</span>
+          </div>
+          <div class="p-row alto">
+            <span class="p-name">Dir. Administrativo</span>
+            <div class="p-bar"><i style="width:78%"></i></div>
+            <span class="p-tag">ALTO</span>
+          </div>
+          <div class="p-row medio">
+            <span class="p-name">Dir. Proc. Civil</span>
+            <div class="p-bar"><i style="width:58%"></i></div>
+            <span class="p-tag">MÉDIO</span>
+          </div>
+          <div class="p-row medio">
+            <span class="p-name">Português</span>
+            <div class="p-bar"><i style="width:50%"></i></div>
+            <span class="p-tag">MÉDIO</span>
+          </div>
+          <div class="p-row medio">
+            <span class="p-name">Informática</span>
+            <div class="p-bar"><i style="width:40%"></i></div>
+            <span class="p-tag">MÉDIO</span>
+          </div>
+          <div class="p-row baixo">
+            <span class="p-name">Raciocínio Lógico</span>
+            <div class="p-bar"><i style="width:28%"></i></div>
+            <span class="p-tag">BAIXO</span>
+          </div>
+          <div class="p-row baixo">
+            <span class="p-name">Direito Penal</span>
+            <div class="p-bar"><i style="width:20%"></i></div>
+            <span class="p-tag">BAIXO</span>
+          </div>
+        </div>
+        <div class="poster-legend">
+          <span class="leg alto">● Alto retorno</span>
+          <span class="leg medio">● Médio retorno</span>
+          <span class="leg baixo">● Baixo retorno</span>
+        </div>
+      </div>
+      <p style="text-align:center;color:var(--muted-2);font-size:.84rem;margin-top:14px">Mockup ilustrativo do Pôster Mapa da Aprovação TJAM</p>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- ENTREGÁVEIS -->
+<section class="sec" id="entregaveis">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Tudo que está dentro</span>
+      <h2>Cinco ferramentas prontas<br>para a sua <span class="kicker-gold">aprovação no TJAM.</span></h2>
+    </div>
+    <div class="feat-grid">
+      <div class="feat reveal d1"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M3 3h18M3 9h18M3 15h12M3 21h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div><h3>Pôster Mapa da Aprovação TJAM</h3><p>O edital inteiro em uma página. Matérias dimensionadas pelo peso real na prova. Semáforo de prioridade. Imprime e cola na parede.</p></div>
+      <div class="feat reveal d2"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><rect x="3" y="4" width="18" height="17" rx="3" stroke="currentColor" stroke-width="1.7"/><path d="M3 9h18M8 2v4M16 2v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg></div><h3>Plano de Estudos Semana a Semana</h3><p>Cronograma pronto, distribuído por matéria e fase do edital. Feito para quem tem 1 a 2 horas por dia.</p></div>
+      <div class="feat reveal d3"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Checklist do Edital por Tópico</h3><p>Cada assunto verticalizado com prioridade por cor. Colunas para marcar: Estudei · Revisei · Fiz questões.</p></div>
+      <div class="feat reveal d1"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="m10 8 6 4-6 4V8Z" fill="currentColor"/><rect x="3" y="4" width="18" height="16" rx="3" stroke="currentColor" stroke-width="1.7"/></svg></div><h3>3 Micro-aulas Estratégicas</h3><p>O erro de estudar tudo igual · O que mais cai na prova · As matérias que decidem a vaga no TJAM.</p></div>
+      <div class="feat gold reveal d2" style="grid-column:span 2"><div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"><path d="M12 3v10m0 0 4-4m-4 4-4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 17v2a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></div><h3>🎁 Bônus: Aula Prática ao Vivo com o Professor Fábio Silva</h3><p>"Como usar o Plano para montar sua semana de estudos perfeita no TJAM" — <b style="color:var(--gold-soft)">Valor real do bônus: R$ 497 · incluso gratuitamente hoje</b></p></div>
+    </div>
+    <div style="text-align:center;margin-top:36px">
+      <a href="#oferta" class="btn btn-primary btn-lg reveal" onclick="if(window.fbq)fbq('track','InitiateCheckout');">QUERO O PLANO + A AULA AO VIVO →</a>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- AUTORIDADE -->
+<section class="sec bonus-section" id="bonus">
+  <div class="wrap">
+    <div class="auth-banner reveal">
+      <img src="FOTOS/fabio-evento.jpg" alt="Professor Fábio Silva palestrando para auditório lotado de alunos">
+      <div class="ov">
+        <span class="eyebrow">Quem vai te guiar</span>
+        <b>Professor Fábio Silva</b>
+        <small>Especialista em Tribunais · Aprovados TJAM 2019 · Sou Concurseiro e Vou Passar</small>
+      </div>
+    </div>
+    <div class="auth-body reveal d1">
+      <div class="auth-quote">"Em 2019, <span class="hl">alunos do Sou Concurseiro e Vou Passar foram aprovados no TJAM</span> estudando com a mesma metodologia que está dentro deste Plano."</div>
+      <p style="color:var(--muted);font-size:1.05rem">Professor Fábio Silva é Professor e especialista em preparação para o Tribunal de Justiça do Amazonas. O método do Professor Fábio não é sobre quantidade de horas — é sobre estudar o que cai, na ordem certa, com o tempo que você tem.</p>
+      <div class="auth-stats">
+        <div><div class="n">TJAM 2019</div><small>aprovados com<br>este método</small></div>
+        <div><div class="n">TJAM</div><small>provas anteriores<br>analisadas</small></div>
+        <div><div class="n">SCVP</div><small>aprovados na<br>plataforma</small></div>
+      </div>
+    </div>
+
+    <!-- BONUS CARD -->
+    <div class="bonus-card reveal">
+      <div class="bonus-grid">
+        <div>
+          <span class="ribbon">🎁 Bônus exclusivo incluso</span>
+          <h3>A aula que transforma o seu plano<br><span style="color:var(--gold-soft)">em aprovação real.</span></h3>
+          <p style="color:var(--muted);font-size:1.05rem">Ao adquirir o Plano Aprovação TJAM você ganha uma <b style="color:var(--ink)">Aula Prática ao Vivo</b> com o Professor Fábio Silva — onde ele te mostra, na prática, como usar o seu cronograma para montar a semana de estudos ideal e cortar tudo o que não vai cair na prova do TJAM.</p>
+          <div class="bonus-list">
+            <div><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Como usar o <b>cronograma</b> para estudar o que mais cai na prova</div>
+            <div><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Montar a <b>semana de estudos perfeita</b> com 1 a 2h por dia</div>
+            <div><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> O <b>erro mais comum</b> de quem estuda para o TJAM e como evitar</div>
+            <div><svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="m5 12 4 4L19 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg> Tira-dúvidas <b>ao vivo</b> direto com o Delegado</div>
+          </div>
+          <p style="margin-top:1.3em;font-size:1rem;color:#1a2a4a"><b>Essa aula sozinha já justifica a sua entrada.</b> É ela que garante que você não vai desperdiçar o plano por estudar do jeito errado.</p>
+        </div>
+        <div class="bonus-aside">
+          <div class="ic-live"><svg width="26" height="26" viewBox="0 0 24 24" fill="none"><path d="m10 8 6 4-6 4V8Z" fill="currentColor"/><rect x="3" y="4" width="18" height="16" rx="3" stroke="currentColor" stroke-width="1.7"/></svg></div>
+          <div class="live"><span class="pulse"></span> Aula ao vivo</div>
+          <b>Turma ao vivo e exclusiva</b>
+          <p>Acontece na próxima data disponível, ao vivo e exclusiva para alunos do Plano. Você recebe o link de acesso no seu e-mail logo após a compra.</p>
+          <div class="val">Valor real do bônus: <b>R$ 497</b><br><span style="font-size:.78rem">incluso gratuitamente hoje</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GALLERY -->
+    <div class="gallery reveal d1">
+      <div class="gphoto g-main"><img src="FOTOS/alunos-aprovados.jpg" alt="Centenas de alunos do Sou Concurseiro e Vou Passar reunidos"><div class="cap">Centenas de alunos que confiaram no método</div></div>
+      <div class="gphoto g-sm"><img src="FOTOS/fabio-evento.jpg" alt="Professor Fábio Silva palestrando para auditório lotado"><div class="cap">Professor Fábio Silva no palco com seus alunos</div></div>
+      <div class="gphoto g-sm"><img src="FOTOS/aprovado-tjam-2019.jpg" alt="Professor Fábio Silva com aluno aprovado no TJAM 2019"><div class="cap">Aprovado no TJAM 2019 — resultado do método</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- OFERTA -->
+<section class="sec" id="oferta">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Comece hoje</span>
+      <h2>Dê o primeiro passo rumo à<br><span class="kicker-gold">sua aprovação no TJAM.</span></h2>
+      <p>Enquanto você decide, o concurso se aproxima. Quem começa antes, com método, larga na frente.</p>
+    </div>
+    <div class="offer-card reveal">
+      <span class="offer-badge">Plano Aprovação TJAM + Aula ao Vivo</span>
+      <div style="text-align:left;max-width:380px;margin:0 auto 22px;display:flex;flex-direction:column;gap:.55em">
+        <div style="display:flex;gap:.6em;align-items:flex-start;font-size:.95rem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="flex:0 0 auto;margin-top:3px"><path d="m5 12 4 4L19 6" stroke="#27AE60" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Pôster Mapa da Aprovação TJAM (edital em uma página)</div>
+        <div style="display:flex;gap:.6em;align-items:flex-start;font-size:.95rem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="flex:0 0 auto;margin-top:3px"><path d="m5 12 4 4L19 6" stroke="#27AE60" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Plano de Estudos Semana a Semana</div>
+        <div style="display:flex;gap:.6em;align-items:flex-start;font-size:.95rem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="flex:0 0 auto;margin-top:3px"><path d="m5 12 4 4L19 6" stroke="#27AE60" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Checklist do Edital por Tópico</div>
+        <div style="display:flex;gap:.6em;align-items:flex-start;font-size:.95rem"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="flex:0 0 auto;margin-top:3px"><path d="m5 12 4 4L19 6" stroke="#27AE60" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> 3 Micro-aulas Estratégicas</div>
+        <div style="display:flex;gap:.6em;align-items:flex-start;font-size:.95rem;color:var(--gold-soft);font-weight:700"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="flex:0 0 auto;margin-top:3px"><path d="m5 12 4 4L19 6" stroke="#D4A017" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> 🎁 Bônus: Aula Prática ao Vivo com o Professor Fábio Silva</div>
+      </div>
+      <div style="color:var(--muted);font-size:1.02rem;margin-bottom:.1em">De: <s style="color:var(--muted-2)">R$ 197</s></div>
+      <div class="price">R$ 19,90</div>
+      <div class="price-sub">pagamento único · acesso imediato</div>
+      <a href="https://pay.hub.la/4UNFZI30Eo9K2rHGLBUt" onclick="if(window.fbq)fbq('track','InitiateCheckout');" class="btn btn-primary btn-lg">QUERO O PLANO + A AULA AO VIVO →</a>
+      <div class="pay-note">🔒 Compra 100% segura · PIX, boleto ou cartão · Acesso liberado na hora</div>
+    </div>
+    <div class="guarantee reveal d2">
+      <span class="seal"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5l-8-3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      <div><b style="color:var(--ink);font-family:'Bricolage Grotesque'">Garantia de satisfação · 7 dias</b><br>Você tem 7 dias para explorar o material. Se não for para você por qualquer motivo, devolvemos 100% do seu investimento. O risco é todo nosso.</div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<!-- FAQ -->
+<section class="sec" id="faq">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Dúvidas frequentes</span>
+      <h2>Ainda com alguma dúvida?</h2>
+    </div>
+    <div class="faq reveal">
+      <details open><summary>Eu nunca estudei para concurso. Funciona para mim? <span class="pl">+</span></summary><div class="ans">Sim — o Plano foi pensado exatamente para iniciantes. 48% dos candidatos que se inscreveram para o TJAM pelo SCVP nunca prestaram um concurso. O cronograma já vem pronto: você abre e começa a estudar o que está na tela do dia.</div></details>
+      <details><summary>Tenho pouco tempo. Como funciona o cronograma? <span class="pl">+</span></summary><div class="ans">O Plano foi calibrado para quem tem 1 a 2 horas por dia. As matérias são distribuídas na proporção certa — as mais pesadas recebem mais tempo, as mais leves, menos. Sem maratona, sem desperdício.</div></details>
+      <details><summary>O plano leva em conta o histórico de provas do TJAM? <span class="pl">+</span></summary><div class="ans">Sim. As prioridades de matéria e a ordem do cronograma foram calibradas com base no histórico de provas do Tribunal de Justiça do Amazonas. O que mais costuma cair nas provas do TJAM está no topo do seu plano.</div></details>
+      <details><summary>Posso pagar no boleto ou PIX? <span class="pl">+</span></summary><div class="ans">Sim. Aceitamos PIX, boleto bancário e cartão de crédito. Após o pagamento, o acesso é liberado imediatamente.</div></details>
+      <details><summary>O edital do TJAM ainda não saiu. Vale começar agora? <span class="pl">+</span></summary><div class="ans">Vale — e muito. O conteúdo dos editais do TJAM se mantém consistente entre concursos. Quem começa agora chega na publicação do edital com a base já construída — e larga na frente de quem só vai começar depois.</div></details>
+      <details><summary>E se eu não gostar? <span class="pl">+</span></summary><div class="ans">Você tem 7 dias de garantia total. Explore o material por dentro e, se entender que não é para você, devolvemos 100% do valor. Sem perguntas.</div></details>
+      <details><summary>Sou formado(a) em outra área. Tem vaga para mim no TJAM? <span class="pl">+</span></summary><div class="ans">O TJAM abre vagas para nível médio e para nível superior em diversas áreas (Direito, Administração, TI, Pedagogia, Enfermagem e outras). O Plano cobre os conteúdos comuns a todos os cargos — que são a maior parte da prova.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final">
+  <div class="final-bg"><img src="FOTOS/tribunal-tjam.jpg" alt="Tribunal de Justiça do Amazonas"></div>
+  <div class="wrap final-inner reveal">
+    <span class="eyebrow">A decisão é sua</span>
+    <h2>A vaga não vai vir até você.<br>Mas o plano que te leva até ela <span class="kicker-gold">começa hoje.</span></h2>
+    <p style="color:#cdd8f2;font-size:1.15rem;margin:1em auto 2em;max-width:600px">Pare de estudar no escuro. Tenha o mapa do edital na mão, o cronograma pronto e uma aula ao vivo para não errar nem o primeiro passo.</p>
+    <a href="https://pay.hub.la/4UNFZI30Eo9K2rHGLBUt" onclick="if(window.fbq)fbq('track','InitiateCheckout');" class="btn btn-primary btn-lg">Quero o Plano + a Aula ao Vivo →</a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="brand">
+        <span class="mark"><svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 3 4 7v5c0 5 3.5 8 8 9 4.5-1 8-4 8-9V7l-8-4Z" stroke="#fff" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+        <div>Plano Aprovação TJAM<small>Sou Concurseiro e Vou Passar</small></div>
+      </div>
+      <a href="https://pay.hub.la/4UNFZI30Eo9K2rHGLBUt" onclick="if(window.fbq)fbq('track','InitiateCheckout');" class="btn btn-blue">Garantir o Plano + a Aula ao Vivo</a>
+    </div>
+    <p class="foot-legal">Plano Aprovação TJAM é um produto de preparação para concursos da plataforma Sou Concurseiro e Vou Passar. Os mockups exibidos são representações ilustrativas do material. Os resultados dependem do empenho e dedicação individual de cada estudante. Este material não tem vínculo com o Tribunal de Justiça do Amazonas © 2026 — Todos os direitos reservados.</p>
+  </div>
+</footer>
+
+<script>
+// nav scroll
+const nav=document.getElementById('nav');
+addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>20));
+// reveal
+const io=new IntersectionObserver((es)=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+</script>
+
+<!-- Hubla UTM script — atualizar _prefixDomains se necessário -->
+<script type="text/javascript">var _prefixDomains=["https://pay.hub.la","https://invoice.hub.la","https://app.hub.la","https://hub.la"];function _getUtmParams(){var a="",r=window.top.location.href,e=new URL(r);if(null!==e){var t=e.searchParams.get("utm_source"),n=e.searchParams.get("utm_medium"),m=e.searchParams.get("utm_campaign"),o=e.searchParams.get("utm_term"),s=e.searchParams.get("utm_content");-1!==r.indexOf("?")&&(a="&sck="+t+"|"+n+"|"+m+"|"+o+"|"+s)}return a}!function(){var a=new URLSearchParams(window.location.search);a.toString()&&document.querySelectorAll("a").forEach((function(r){for(var e=0;e<_prefixDomains.length;e++)-1!==r.href.indexOf(_prefixDomains[e])&&(-1===r.href.indexOf("?")?r.href+="?"+a.toString()+_getUtmParams():r.href+="&"+a.toString()+_getUtmParams())}))}();</script>
+</body>
+</html>

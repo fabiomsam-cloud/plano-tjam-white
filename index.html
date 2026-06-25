@@ -339,24 +339,23 @@ footer{background:var(--surface-2);border-top:1px solid var(--line)}
 .section-divider{height:1px;background:linear-gradient(90deg,transparent,var(--line-strong),transparent);max-width:var(--max);margin:0 auto}
 
 /* ── WHITE HERO OVERRIDE ── */
-.hero{background:#fff;padding:56px 0 72px}
+.hero{background:#fff;padding:64px 0 56px}
 .hero-bg{display:none}
-.hero-inner{max-width:100%;display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:stretch}
-@media(max-width:860px){.hero-inner{grid-template-columns:1fr;gap:36px}}
-.hero-left{max-width:580px}
-.hero h1{font-size:clamp(2.6rem,5.5vw,4.2rem);font-weight:800;color:#0D1B3E;margin:.4em 0 .3em;line-height:1.05}
+.hero-inner{max-width:860px;display:flex;flex-direction:column;align-items:center;text-align:center;margin:0 auto}
+.hero-left{width:100%;display:flex;flex-direction:column;align-items:center}
+.hero h1{font-size:clamp(2.4rem,5.5vw,4rem);font-weight:800;color:#0D1B3E;margin:.4em 0 .3em;line-height:1.05}
 .hero h1 .hl{color:var(--gold);background:none}
 .hero h1 .hl::after{display:none}
 .hero h1 .hl-blue{color:var(--primary-bright)}
-.hero p.lead{color:#2a3d62;font-size:clamp(1rem,1.8vw,1.2rem);max-width:520px;margin-bottom:1.6em}
-.hero-trust{border-top:1px solid var(--line);padding-top:1.4em;margin-top:2em}
+.hero p.lead{color:#2a3d62;font-size:clamp(1rem,1.8vw,1.18rem);max-width:640px;margin-bottom:1.6em}
+.hero-cta{justify-content:center}
+.hero-note{justify-content:center;color:var(--muted)}
+.hero-trust{border-top:1px solid var(--line);padding-top:1.4em;margin-top:2em;justify-content:center}
 .hero-trust .ti{color:#2a3d62}
 .hero-trust .ti b{color:#0D1B3E}
-.hero-note{color:var(--muted)}
 
-/* right col — tablet + material cards */
-.hero-right{position:relative;display:flex;flex-direction:column;gap:14px;justify-content:center}
-.tablet-mock{flex:1;display:flex;flex-direction:column}
+/* right col — oculto no layout centralizado */
+.hero-right{display:none}
 
 /* tablet mockup */
 .tablet-mock{background:#0D1B3E;border-radius:20px;padding:10px;box-shadow:0 28px 70px -20px rgba(26,58,143,.30),0 0 0 1px rgba(26,58,143,.12)}
